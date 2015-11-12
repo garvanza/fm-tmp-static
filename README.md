@@ -1,0 +1,19 @@
+## Maven
+```xml
+<repositories>
+	<repository>
+		<id>fm-tmp-static-mvn-repo</id>
+		<url>https://raw.github.com/garvanza/fm-tmp-static/mvn-repo/</url>
+		<snapshots>
+			<enabled>true</enabled>
+			<updatePolicy>daily</updatePolicy>
+		</snapshots>
+	</repository>
+</repositories>
+<dependencies>
+	<dependency>
+		<groupId>garvanza.fm</groupId>
+		<artifactId>fm-tmp-static</artifactId>
+		<version>1.0.0</version>
+	</dependency>
+</dependencies>
